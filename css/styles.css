@@ -3,8 +3,6 @@ h1,h2,h3,h4,h5,h6,figure,p{
     margin: 0;
     padding: 0;
 }
-
-
 /*selecion universal*/
 /*margin :0; aplicar a todo*/
 /*margin: 0 0; el primer aplica tomp-bottom y el segundo right-left*/
@@ -22,6 +20,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
     justify-content: space-between;
     align-content: flex-start;
     align-content: center;
+    
 }
 
 #encabezado figure{
@@ -159,7 +158,7 @@ display: flex;
     
 }
 #Redes-Sociales{
-    text-align: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
 .Facebook ,.Twitter{
